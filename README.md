@@ -10,12 +10,25 @@ npm install react-native-animated-toast
 
 ## Usage
 
+Wrap your App with `ToastProvider` component and pass your config object.
+
 ```js
-import { multiply } from 'react-native-animated-toast';
+import ToastProvider from 'react-native-animated-toast';
+import { ToastPosition, type ConfigType } from 'react-native-animated-toast';
 
-// ...
+...
 
-const result = await multiply(3, 7);
+const config: ConfigType = {
+  position: ToastPosition.TOP,
+};
+
+...
+
+return (
+    <ToastProvider config={config}>
+      ...
+    </ToastProvider>
+  );
 ```
 
 ## Contributing

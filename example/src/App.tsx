@@ -1,31 +1,16 @@
 import * as React from 'react';
+import ToastProvider from 'react-native-animated-toast';
+import { Buttons } from './Buttons';
+import { ToastPosition, type ConfigType } from '../../src/types/ToastType';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-animated-toast';
+const config: ConfigType = {
+  position: ToastPosition.TOP,
+};
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <ToastProvider config={config}>
+      <Buttons />
+    </ToastProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
-  },
-});
