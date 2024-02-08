@@ -14709,52 +14709,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-animated-toast-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-native-animated-toast-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@expo/webpack-config": ^18.0.1
-    babel-loader: ^8.1.0
-    babel-plugin-module-resolver: ^5.0.0
-    expo: ~50.0.5
-    expo-status-bar: ~1.11.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-native: 0.73.2
-    react-native-web: ~0.19.6
-  languageName: unknown
-  linkType: soft
-
-"react-native-animated-toast@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-animated-toast@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.2
-    "@evilmartians/lefthook": ^1.5.0
-    "@react-native/eslint-config": ^0.72.2
-    "@release-it/conventional-changelog": ^5.0.0
-    "@types/jest": ^28.1.2
-    "@types/react": ~17.0.21
-    "@types/react-native": 0.70.0
-    commitlint: ^17.0.2
-    del-cli: ^5.0.0
-    eslint: ^8.4.1
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.0.0
-    jest: ^28.1.1
-    prettier: ^2.0.5
-    react: 18.2.0
-    react-native: 0.73.2
-    react-native-builder-bob: ^0.20.0
-    release-it: ^15.0.0
-    typescript: ^5.0.2
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
-
 "react-native-builder-bob@npm:^0.20.0":
   version: 0.20.4
   resolution: "react-native-builder-bob@npm:0.20.4"
@@ -14787,6 +14741,52 @@ __metadata:
   checksum: 258da6ecd03be52cc05a3e3a7c481890c7c0b7b62ae9f263c5f3d6fafeae95bd9445ad2f6c2513f7f4e4569eee935a18ae94c7491f58d6916af515c88de9e0a1
   languageName: node
   linkType: hard
+
+"react-native-toast-animated-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "react-native-toast-animated-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@expo/webpack-config": ^18.0.1
+    babel-loader: ^8.1.0
+    babel-plugin-module-resolver: ^5.0.0
+    expo: ~50.0.5
+    expo-status-bar: ~1.11.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-native: 0.73.2
+    react-native-web: ~0.19.6
+  languageName: unknown
+  linkType: soft
+
+"react-native-toast-animated@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-native-toast-animated@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.2
+    "@evilmartians/lefthook": ^1.5.0
+    "@react-native/eslint-config": ^0.72.2
+    "@release-it/conventional-changelog": ^5.0.0
+    "@types/jest": ^28.1.2
+    "@types/react": ~17.0.21
+    "@types/react-native": 0.70.0
+    commitlint: ^17.0.2
+    del-cli: ^5.0.0
+    eslint: ^8.4.1
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.0.0
+    jest: ^28.1.1
+    prettier: ^2.0.5
+    react: 18.2.0
+    react-native: 0.73.2
+    react-native-builder-bob: ^0.20.0
+    release-it: ^15.0.0
+    typescript: ^5.0.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
 
 "react-native-web@npm:~0.19.6":
   version: 0.19.10

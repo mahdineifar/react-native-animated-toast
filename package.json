@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-toast",
+  "name": "react-native-toast-animated",
   "version": "0.1.0",
   "description": "An animated toast component for React Native",
   "main": "lib/commonjs/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-animated-toast-example",
+    "example": "yarn workspace react-native-toast-animated-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -41,14 +41,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahdineifar/react-native-animated-toast.git"
+    "url": "git+https://github.com/mahdineifar/react-native-toast-animated.git"
   },
   "author": "mneifar <mahdi.neifar123@gmail.com> (https://github.com/mahdineifar)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mahdineifar/react-native-animated-toast/issues"
+    "url": "https://github.com/mahdineifar/react-native-toast-animated/issues"
   },
-  "homepage": "https://github.com/mahdineifar/react-native-animated-toast#readme",
+  "homepage": "https://github.com/mahdineifar/react-native-toast-animated#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

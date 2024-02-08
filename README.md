@@ -1,11 +1,11 @@
-# react-native-animated-toast
+# react-native-toast-animated
 
 An animated toast component for React Native
 
 ## Installation
 
 ```sh
-npm install react-native-animated-toast
+npm install react-native-toast-animated
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ npm install react-native-animated-toast
 Wrap your App with `ToastProvider` component and pass your config object.
 
 ```js
-import ToastProvider from 'react-native-animated-toast';
-import { ToastPosition, type ConfigType } from 'react-native-animated-toast';
+import ToastProvider from 'react-native-toast-animated';
+import { ToastPosition, type ConfigType } from 'react-native-toast-animated';
 
 ...
 
