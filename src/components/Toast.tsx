@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   text: {
-    fontSize: 16,
+    fontSize: 14,
   },
   closeIcon: {
     fontSize: 18,

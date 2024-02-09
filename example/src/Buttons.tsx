@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import useToast from '../../src/hooks/useToast';
+import { useToast } from 'react-native-toast-animated';
 
 export const Buttons = () => {
   const toast = useToast();

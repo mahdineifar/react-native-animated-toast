@@ -1,6 +1,3 @@
-import { ToastProvider } from './components/ToastProvider';
-import useToast from './hooks/useToast';
-
-export { useToast };
-
-export default ToastProvider;
+export { default as ToastProvider } from './components/ToastProvider';
+export { default as useToast } from './hooks/useToast';
+export * from './types/ToastType';

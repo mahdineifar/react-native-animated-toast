@@ -15,7 +15,7 @@ interface Props {
   children: ReactNode;
 }
 
-export const ToastProvider = ({ config, children }: Props) => {
+const ToastProvider = ({ config, children }: Props) => {
   const [toasts, setToasts] = useState<ToastInfosWithId[]>([]);
 
   const show = useMemo(
@@ -82,3 +82,5 @@ const styles = StyleSheet.create({
     bottom: 0,
   },
 });
+
+export default ToastProvider;
